@@ -1,7 +1,6 @@
 {
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "选择收获地址",
-  "backgroundColor": "#eeeeee",
+  "navigationBarTitleText": "记录列表",
   "backgroundTextStyle": "light"
 }

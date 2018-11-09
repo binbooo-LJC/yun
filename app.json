@@ -1,16 +1,10 @@
 {
   "pages":  [  
     "pages/start/start",
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/autologin/index",
-    "pages/cart/index",
-    "pages/goods_detail/index",
-    "pages/personal/index",
-    "pages/order/index",
-    "pages/address/index",
     "pages/address_add/index",
-    "pages/choose_address/index"
+    "pages/choose_address/index",
+    "pages/editaddress/index" 
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -19,23 +13,18 @@
   },
   "tabBar": {
     "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
+      "pagePath": "pages/address_add/index",
+      "text": "添加纪录",
       "iconPath": "images/nav/home-off.png",
       "selectedIconPath": "images/nav/home-on.png"
     },
     
     {
-      "pagePath": "pages/cart/index",
-      "text": "购物车",
+      "pagePath": "pages/choose_address/index",
+      "text": "记录列表",
       "iconPath": "images/nav/cart-off.png",
       "selectedIconPath": "images/nav/cart-on.png"
-    },
-    {
-      "pagePath": "pages/personal/index",
-      "text": "我的",
-      "iconPath": "images/nav/my-off.png",
-      "selectedIconPath": "images/nav/my-on.png"
-    }]
+    }
+    ]
   }
 }

@@ -17,8 +17,12 @@ Page({
   },
   editaddress:function(e){
     wx.navigateTo({
-      url: '/pages/address_add/index?id=' + e.currentTarget.id,
+      url: '/pages/editaddress/index?id=' + e.currentTarget.id,
     })
+    // wx.setStorageSync('address_id', e.currentTarget.id)
+    // wx.switchTab({
+    //   url: '/pages/address_add/index',
+    // })
   },
   /**
    * 生命周期函数--监听页面加载
